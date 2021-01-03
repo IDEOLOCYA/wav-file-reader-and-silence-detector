@@ -71,7 +71,7 @@ public:
 
 void readData(FILE *dosya)
   {
-    FILE *fout = fopen("ahmetinki.dat", "w");
+    FILE *fout = fopen("test.dat", "w");
     //Calculation of Number of samples
      int sample_size = veri.bitsPerSample / 8;
      int samples_count = veri.Subchunk2Size * 8 / veri.bitsPerSample;
